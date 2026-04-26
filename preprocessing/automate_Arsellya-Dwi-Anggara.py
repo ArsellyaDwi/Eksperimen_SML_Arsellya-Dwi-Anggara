@@ -43,6 +43,6 @@ def preprocess_data(input_path, output_path):
 # Run manual (biar bisa langsung jalan)
 if __name__ == "__main__":
     preprocess_data(
-        input_path="../dataset_raw/train.csv",
-        output_path="titanic_preprocessing.csv"
+        input_path="dataset_raw/train.csv",
+        output_path="preprocessing/titanic_preprocessing.csv"
     )
